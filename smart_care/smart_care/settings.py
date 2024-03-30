@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'contact_us',
     'doctor',
     'patient',
+    'rest_framework',
     
 ]
 
