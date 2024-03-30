@@ -4,7 +4,7 @@ from . import views
 
 
 router = DefaultRouter() 
-router.register('', views.ContactusViewset) 
+router.register('', views.ServiceViewset) 
 urlpatterns = [
     path('', include(router.urls)),
 ]
